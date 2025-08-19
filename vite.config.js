@@ -4,7 +4,7 @@ import { fileURLToPath, URL } from "node:url";
 import tailwindcss from "tailwindcss";
 import autoprefixer from "autoprefixer";
 
-export default defineConfig({`r`n  preview: { port: 4173,  allowedHosts: ["internshipfinder.onrender.com"] },
+export default defineConfig({
   plugins: [react()],
   resolve: {
     alias: {
@@ -13,12 +13,12 @@ export default defineConfig({`r`n  preview: { port: 4173,  allowedHosts: ["inter
   },
   css: {
     postcss: {
-      plugins: [
-        tailwindcss(),
-        autoprefixer(),
-      ],
+      plugins: [tailwindcss(), autoprefixer()],
     },
   },
+  preview: {
+    host: "0.0.0.0",
+    port: 4173,
+    allowedHosts: ["internshipfinder.onrender.com"],
+  },
 });
-
-
