@@ -22,3 +22,4 @@ export default defineConfig({
     allowedHosts: ["internshipfinder.onrender.com"],
   },
 });
+

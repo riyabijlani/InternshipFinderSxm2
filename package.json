@@ -1,4 +1,4 @@
-﻿{
+{
     "name": "internship-finder",
     "private": true,
     "version": "0.0.0",
@@ -82,5 +82,5 @@
         "tailwindcss-animate": "^1.0.7",
         "vite": "^6.3.5"
     },
-    "description": "InternshipFinder Ã¢â‚¬â€ SXM Intern Connect"
+    "description": "InternshipFinder — SXM Intern Connect"
 }

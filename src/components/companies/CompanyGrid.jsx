@@ -79,3 +79,5 @@ export default function CompanyGrid({ companies, isLoading, searchTerm, filters 
 
 
 
+
+
