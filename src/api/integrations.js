@@ -1,4 +1,4 @@
-﻿import { InternshipFinder } from './InternshipFinderClient';
+﻿import { InternshipFinder } from './InternshipFinderClient.js';
 
 
 
@@ -14,6 +14,9 @@ export const UploadFile = InternshipFinder.integrations.Core.UploadFile;
 export const GenerateImage = InternshipFinder.integrations.Core.GenerateImage;
 
 export const ExtractDataFromUploadedFile = InternshipFinder.integrations.Core.ExtractDataFromUploadedFile;
+
+
+
 
 
 

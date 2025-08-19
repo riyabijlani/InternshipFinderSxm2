@@ -1,4 +1,4 @@
-﻿import { InternshipFinder } from './InternshipFinderClient';
+﻿import { InternshipFinder } from './InternshipFinderClient.js';
 
 
 export const Company = InternshipFinder.entities.Company;
@@ -21,4 +21,9 @@ export const SuccessStory = InternshipFinder.entities.SuccessStory;
 
 // auth sdk:
 export const User = InternshipFinder.auth;
+
+
+
+
+
 
