@@ -1,9 +1,14 @@
 ﻿import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
+import { fileURLToPath, URL } from "node:url";
 
-// Inline PostCSS so Vite doesn't need to search any external config
 export default defineConfig({
   plugins: [react()],
+  resolve: {
+    alias: {
+      "@": fileURLToPath(new URL("./src", import.meta.url)),
+    },
+  },
   css: {
     postcss: {
       plugins: {
