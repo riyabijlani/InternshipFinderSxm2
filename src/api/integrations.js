@@ -1,19 +1,19 @@
-import { base44 } from './base44Client';
+﻿import { Internship Finder } from './Internship FinderClient';
 
 
 
 
-export const Core = base44.integrations.Core;
+export const Core = Internship Finder.integrations.Core;
 
-export const InvokeLLM = base44.integrations.Core.InvokeLLM;
+export const InvokeLLM = Internship Finder.integrations.Core.InvokeLLM;
 
-export const SendEmail = base44.integrations.Core.SendEmail;
+export const SendEmail = Internship Finder.integrations.Core.SendEmail;
 
-export const UploadFile = base44.integrations.Core.UploadFile;
+export const UploadFile = Internship Finder.integrations.Core.UploadFile;
 
-export const GenerateImage = base44.integrations.Core.GenerateImage;
+export const GenerateImage = Internship Finder.integrations.Core.GenerateImage;
 
-export const ExtractDataFromUploadedFile = base44.integrations.Core.ExtractDataFromUploadedFile;
+export const ExtractDataFromUploadedFile = Internship Finder.integrations.Core.ExtractDataFromUploadedFile;
 
 
 

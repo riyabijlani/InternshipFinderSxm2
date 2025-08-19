@@ -1,4 +1,4 @@
-import React from 'react';
+﻿import React from 'react';
 import { AlertTriangle, XCircle, Info } from 'lucide-react';
 
 export const Alert = ({ title, children, variant = 'error' }) => {

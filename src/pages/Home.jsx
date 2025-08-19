@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useMemo } from "react";
+﻿import React, { useState, useEffect, useMemo } from "react";
 import { Company } from "@/api/entities";
 import SearchBar from "../components/search/SearchBar";
 import FilterPanel from "../components/filters/FilterPanel";

@@ -1,23 +1,23 @@
-import { base44 } from './base44Client';
+﻿import { Internship Finder } from './Internship FinderClient';
 
 
-export const Company = base44.entities.Company;
+export const Company = Internship Finder.entities.Company;
 
-export const Application = base44.entities.Application;
+export const Application = Internship Finder.entities.Application;
 
-export const Resource = base44.entities.Resource;
+export const Resource = Internship Finder.entities.Resource;
 
-export const Review = base44.entities.Review;
+export const Review = Internship Finder.entities.Review;
 
-export const Notification = base44.entities.Notification;
+export const Notification = Internship Finder.entities.Notification;
 
-export const Interview = base44.entities.Interview;
+export const Interview = Internship Finder.entities.Interview;
 
-export const Mentor = base44.entities.Mentor;
+export const Mentor = Internship Finder.entities.Mentor;
 
-export const SuccessStory = base44.entities.SuccessStory;
+export const SuccessStory = Internship Finder.entities.SuccessStory;
 
 
 
 // auth sdk:
-export const User = base44.auth;
+export const User = Internship Finder.auth;

@@ -1,4 +1,4 @@
-import React from "react";
+﻿import React from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import CompanyCard from "./CompanyCard";
 import { Building2, SearchX } from "lucide-react";

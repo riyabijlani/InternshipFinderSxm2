@@ -1,4 +1,4 @@
-
+﻿
 import React, { useState } from 'react';
 import { Application } from '@/api/entities';
 import { Button } from '@/components/ui/button';

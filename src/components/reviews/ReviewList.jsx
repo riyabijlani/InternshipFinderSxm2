@@ -1,4 +1,4 @@
-import React from 'react';
+﻿import React from 'react';
 import { Card, CardContent } from '@/components/ui/card';
 import { Star } from 'lucide-react';
 import { format } from 'date-fns';

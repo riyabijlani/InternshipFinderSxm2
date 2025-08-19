@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+﻿import React, { useState, useEffect } from 'react';
 import { Company } from '@/api/entities';
 import { Loader2, MapPin } from 'lucide-react';
 import { motion } from 'framer-motion';
