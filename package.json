@@ -1,4 +1,4 @@
-﻿{
+{
     "name": "internship-finder",
     "private": true,
     "version": "0.0.0",
@@ -61,7 +61,6 @@
         "remark-gfm": "^4.0.1",
         "sonner": "^2.0.1",
         "tailwind-merge": "^3.0.2",
-        "tailwindcss-animate": "^1.0.7",
         "vaul": "^1.1.2",
         "zod": "^3.24.2"
     },
@@ -80,6 +79,7 @@
         "globals": "^15.14.0",
         "postcss": "^8.5.6",
         "tailwindcss": "^3.4.17",
+        "tailwindcss-animate": "^1.0.7",
         "vite": "^6.3.5"
     },
     "description": "InternshipFinder â€” SXM Intern Connect"
