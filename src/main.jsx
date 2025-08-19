@@ -1,24 +1,11 @@
-﻿import React from 'react'
-import ReactDOM from 'react-dom/client'
-import App from './pages/index.jsx'
-import '@/index.css'
+﻿import React from "react";
+import ReactDOM from "react-dom/client";
+import Home from "./pages/Home.jsx";
+import "./index.css";
 
-ReactDOM.createRoot(document.getElementById('root')).render(
-    <App />
-) 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+ReactDOM.createRoot(document.getElementById("root")).render(
+  <React.StrictMode>
+    <Home />
+  </React.StrictMode>
+);
 
