@@ -1,25 +1,15 @@
-﻿import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
-import path from 'path'
+﻿import { defineConfig } from "vite";
+import react from "@vitejs/plugin-react";
 
-// https://vite.dev/config/
+// Inline PostCSS so Vite doesn't need to search any external config
 export default defineConfig({
   plugins: [react()],
-  server: {
-    allowedHosts: true
-  },
-  resolve: {
-    alias: {
-      '@': path.resolve(__dirname, './src'),
-    },
-    extensions: ['.mjs', '.js', '.jsx', '.ts', '.tsx', '.json']
-  },
-  optimizeDeps: {
-    esbuildOptions: {
-      loader: {
-        '.js': 'jsx',
+  css: {
+    postcss: {
+      plugins: {
+        tailwindcss: {},
+        autoprefixer: {},
       },
     },
   },
-}) 
-
+});
