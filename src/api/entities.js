@@ -1,23 +1,24 @@
-﻿import { Internship Finder } from './Internship FinderClient';
+﻿import { InternshipFinder } from './InternshipFinderClient';
 
 
-export const Company = Internship Finder.entities.Company;
+export const Company = InternshipFinder.entities.Company;
 
-export const Application = Internship Finder.entities.Application;
+export const Application = InternshipFinder.entities.Application;
 
-export const Resource = Internship Finder.entities.Resource;
+export const Resource = InternshipFinder.entities.Resource;
 
-export const Review = Internship Finder.entities.Review;
+export const Review = InternshipFinder.entities.Review;
 
-export const Notification = Internship Finder.entities.Notification;
+export const Notification = InternshipFinder.entities.Notification;
 
-export const Interview = Internship Finder.entities.Interview;
+export const Interview = InternshipFinder.entities.Interview;
 
-export const Mentor = Internship Finder.entities.Mentor;
+export const Mentor = InternshipFinder.entities.Mentor;
 
-export const SuccessStory = Internship Finder.entities.SuccessStory;
+export const SuccessStory = InternshipFinder.entities.SuccessStory;
 
 
 
 // auth sdk:
-export const User = Internship Finder.auth;
+export const User = InternshipFinder.auth;
+

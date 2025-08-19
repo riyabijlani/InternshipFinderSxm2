@@ -1,19 +1,20 @@
-﻿import { Internship Finder } from './Internship FinderClient';
+﻿import { InternshipFinder } from './InternshipFinderClient';
 
 
 
 
-export const Core = Internship Finder.integrations.Core;
+export const Core = InternshipFinder.integrations.Core;
 
-export const InvokeLLM = Internship Finder.integrations.Core.InvokeLLM;
+export const InvokeLLM = InternshipFinder.integrations.Core.InvokeLLM;
 
-export const SendEmail = Internship Finder.integrations.Core.SendEmail;
+export const SendEmail = InternshipFinder.integrations.Core.SendEmail;
 
-export const UploadFile = Internship Finder.integrations.Core.UploadFile;
+export const UploadFile = InternshipFinder.integrations.Core.UploadFile;
 
-export const GenerateImage = Internship Finder.integrations.Core.GenerateImage;
+export const GenerateImage = InternshipFinder.integrations.Core.GenerateImage;
 
-export const ExtractDataFromUploadedFile = Internship Finder.integrations.Core.ExtractDataFromUploadedFile;
+export const ExtractDataFromUploadedFile = InternshipFinder.integrations.Core.ExtractDataFromUploadedFile;
+
 
 
 

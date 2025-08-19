@@ -99,3 +99,4 @@ export default function CompanyCard({ company, index }) {
     </motion.div>
   );
 }
+

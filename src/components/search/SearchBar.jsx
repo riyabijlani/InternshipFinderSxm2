@@ -27,3 +27,4 @@ export default function SearchBar({ searchTerm, onSearchChange, placeholder }) {
     </motion.div>
   );
 }
+
